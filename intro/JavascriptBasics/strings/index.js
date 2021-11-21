@@ -29,3 +29,13 @@ let name3 = 'RyAn';
 console.log(name3.toUpperCase());
 console.log(name3.toLowerCase());
 
+// creating template string in html 
+let listOfCourses = 'Math, Physics, Biology';
+let semester = 'Fall';
+
+let html = `
+<h1>Available courses [ ${listOfCourses} ] for</h1>
+<h2> ${semester} Semester.</h2>
+
+`
+console.log(html , '<==== template string');

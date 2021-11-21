@@ -1,7 +1,7 @@
 /*
  1. Number   ---> 1,2,3,4, 1.12, 3.14
  2. String   --- > 'Hello World', 'ryan@student.com'
- 3. Boolean  ----> ttrue / false
+ 3. Boolean  ----> true / false
  4. Null     ----> Explicitly set a variable with no value
  5. Undefined ----> For bariables that have not been defined yet.
  6. Object    ----> Complex data structures - Array, Dates, Literals etc.
@@ -11,9 +11,9 @@
 // Research on these Keywords var, let, const
 
 // eg.
-var name1 = 'Ryan c'
-let name2 = 'Ryan r'
-const name3 = 'Ryan y'
+var name1 = 'Ryan c';
+let name2 = 'Ryan r';
+const name3 = 'Ryan y';
 //console.log(name3 = 'hello');
 
 
