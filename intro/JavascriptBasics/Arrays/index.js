@@ -5,9 +5,6 @@ const students = ['ryan', 'marcus', 'jeff', 'Bryan'];
 let grades = [90, 100, 80];
 let array = [];
 
-
-
-
 // arrays methods
 /*
    Join

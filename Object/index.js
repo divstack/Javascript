@@ -47,6 +47,16 @@ let products = [
   { category: "Clothes", name: "sweater", price: 10.0 },
   { category: "shoes", name: "Tennis", price: 40.0 },
 ];
+let products1 = [
+  { category: "food", name: "cabbage", price: 9.00, tax: 0.3 }
+  
+];
+
+products1.forEach(p1 => {
+    // calculate the price after tax
+    let priceAfterTax = (p1.price * p1.tax) + p1.price;
+    console.log( priceAfterTax , '<==== price');
+})
 
 // loop [ for , foreach, map ]
 
@@ -61,11 +71,14 @@ let products = [
 // }
 
 listOfCars.forEach(car =>{
-    console.log(car);
+    //console.log(car);
 })
 listOfEmployeeCode.forEach(employee => {
-    console.log(employee);
+    //console.log(employee);
 })
 products.forEach(product => {
-    console.log(product.name);
+    //console.log(product.name);
 })
+
+
+
