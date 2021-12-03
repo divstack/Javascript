@@ -6,3 +6,14 @@
 div{
     margin: 15px;
 }
+
+.evt{
+    border: 5px solid #fcf;
+}
+.li_evt{
+    background-color: #999797;
+    padding: 13px;
+    margin: 12px 0;
+    /* border: 1px solid #333; */
+}
+
